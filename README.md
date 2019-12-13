@@ -8,7 +8,7 @@
 
 &ensp;&ensp;&ensp;&ensp;```XHObfuscator```提供了简洁的操作界面:
 
-![主页.jpg](https://upload-images.jianshu.io/upload_images/20083069-093e9d56daed1731.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![主页.jpg](https://upload-images.jianshu.io/upload_images/20083069-4fc315cd49bb9df9.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 #### ```主页功能介绍:```***[请仔细阅读以下内容]()***
 **软件内置海量词汇(15W+),用户亦可设置```用户词库```,在混淆时会先随机选取```用户词库```内容,再随机选取内置词库进行补充;
@@ -125,9 +125,10 @@ ___
 ```项目名混淆前后对比```
 ![项目名混淆前后对比.jpg](https://upload-images.jianshu.io/upload_images/20083069-198a4bfeae821bfe.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+#### 软件下载地址
+码云: https://gitee.com/XHStudio/XHObfuscator
 
-
-
+Github: https://github.com/XHStudios/XHObfuscator
 
 
 ___
