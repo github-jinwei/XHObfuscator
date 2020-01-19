@@ -1,5 +1,14 @@
 ## iOS代码混淆之XHObfuscator工具
+
 ### QQ群:750020052
+
+### 图片无法展示时,可点击  [CSDN-工具简介](https://blog.csdn.net/diyumohuo/article/details/103525890) 或 [简书-工具简介](https://www.jianshu.com/p/17b9486ce406 )  查看
+
+### V1.1版本发布(2019/12/23)
+* 升级为https(不升级旧版将无法使用)
+* 修复混淆属性时,部分get方法未同步修改的bug
+* 修复导出套图时,icon仍有alpha通道的问题
+
 ### V1.0版本发布(2019/12/13)
 
 &ensp;&ensp;&ensp;&ensp;笔者从2015年开始从事iOS开发,经历了市场对iOS开发需求的高点和低点,也经历了苹果本身对审核的宽松和严苛,曾经历了一夜之间十几款App被4.3,也曾收获无数的2.1大礼包.由于笔者所在公司面向B端服务,这种被拒的现象仍在发生...
@@ -8,7 +17,7 @@
 
 &ensp;&ensp;&ensp;&ensp;```XHObfuscator```提供了简洁的操作界面:
 
-![主页.jpg](https://user-gold-cdn.xitu.io/2020/1/19/16fbb9d9a7095d94?w=920&h=672&f=jpeg&s=79449)
+![主页.png](https://upload-images.jianshu.io/upload_images/20083069-31a64ee75f82bf45.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 #### ```主页功能介绍:```***[请仔细阅读以下内容]()***
 **软件内置海量词汇(15W+),用户亦可设置```用户词库```,在混淆时会先随机选取```用户词库```内容,再随机选取内置词库进行补充;
@@ -67,20 +76,20 @@
 * ```开始混淆前,需保证项目名,项目根目录,代码根目录的名称相同```
 ___
 
-![设置.jpg](https://user-gold-cdn.xitu.io/2020/1/19/16fbb9e0192aca16?w=920&h=672&f=jpeg&s=67152)
+![设置.jpg](https://upload-images.jianshu.io/upload_images/20083069-4c7464e240ff80bb?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 #### ```用户设置界面:```
 * 如图所示,混淆前对应功能需手动设置所需前缀,如对应功能没有设置,则默认为```XH```;```字符串加密```默认为```XHSTRING```
 * 点击保存,相应配置会保存到服务器
 
 ___
-![词库.jpg](https://user-gold-cdn.xitu.io/2020/1/19/16fbb9e4beeb3e1d?w=920&h=672&f=jpeg&s=39444)
+![词库.jpg](https://upload-images.jianshu.io/upload_images/20083069-8dc22bf9a714a79f?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 #### ```用户词库界面:```
 * 单词之间需以```英文逗号```分隔
 * 点击提交后会上传到服务器
 
 ___
 
-![套图生成.jpg](https://user-gold-cdn.xitu.io/2020/1/19/16fbb9e8c56fa888?w=1153&h=676&f=jpeg&s=72075)
+![生成套图.jpg](https://upload-images.jianshu.io/upload_images/20083069-89d2b0f80beb439c?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 #### ```生成套图界面:```
 * 点击```选择icon```上方按钮,会打开文件选择器,选择需要添加的icon
 * 为保证生成的图片的清晰度,```选择的icon尺寸最好大于等于1024```
@@ -89,13 +98,13 @@ ___
 
 ___
 
-![反馈.jpg](https://user-gold-cdn.xitu.io/2020/1/19/16fbb9f6c31681d0?w=920&h=672&f=jpeg&s=42339)
+![反馈建议.jpg](https://upload-images.jianshu.io/upload_images/20083069-ebe86b703156a50b?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 #### ```反馈建议界面:```
 * 在使用过程中,有任何问题,建议可在此处提交,笔者会及时处理
 
 ___
 
-![QQ群.jpg](https://user-gold-cdn.xitu.io/2020/1/19/16fbba03e414195e?w=920&h=672&f=jpeg&s=89108)
+![QQ群.jpg](https://upload-images.jianshu.io/upload_images/20083069-943884474cb7b403?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 #### ```QQ群:```
 * 欢迎扫码加入群聊,在这里可以沟通上架遇到的问题,可以愉快的吹水,可以更及时的反馈问题和建议
 
@@ -103,32 +112,27 @@ ___
 
 #### 部分效果展示: ####
 ```中文加密前后对比```
-![中文加密前后对比.jpg](https://user-gold-cdn.xitu.io/2020/1/19/16fbba0953dca5fe?w=1115&h=439&f=jpeg&s=79638)
-
+![中文加密前后对比.jpg](https://upload-images.jianshu.io/upload_images/20083069-5c984411c4a1e86f.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ___
 
 ```英文加密前后对比```
-![英文加密前后对比.jpg](https://user-gold-cdn.xitu.io/2020/1/19/16fbba10923c883a?w=972&h=479&f=jpeg&s=124626)****
-
+![英文加密前后对比.jpg](https://upload-images.jianshu.io/upload_images/20083069-1079d1ed18c2ed73.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ___
 
 ```类名混淆前后对比```
-![类名混淆.jpg](https://user-gold-cdn.xitu.io/2020/1/19/16fbba1eeb06554c?w=554&h=619&f=jpeg&s=104350)
-
+![类名混淆前后对比.jpg](https://upload-images.jianshu.io/upload_images/20083069-ee76c6c0d64757df.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ___
 
 ```目录混淆前后对比```
-![目录混淆.jpg](https://user-gold-cdn.xitu.io/2020/1/19/16fbba2245129301?w=626&h=271&f=jpeg&s=38244)
-
+![目录混淆前后对比.jpg](https://upload-images.jianshu.io/upload_images/20083069-a6a85c849d6ba378.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ___
 
 ```垃圾类内容展示```
-![垃圾类展示.jpg](https://user-gold-cdn.xitu.io/2020/1/19/16fbba2f2e586bdb?w=1660&h=951&f=jpeg&s=195526)
-
+![垃圾类内容展示.jpg](https://upload-images.jianshu.io/upload_images/20083069-f485111eadc97284.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ___
 
 ```项目名混淆前后对比```
-![项目名混淆.jpg](https://user-gold-cdn.xitu.io/2020/1/19/16fbba340f3d34af?w=668&h=248&f=jpeg&s=30629)
+![项目名混淆前后对比.jpg](https://upload-images.jianshu.io/upload_images/20083069-198a4bfeae821bfe.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 #### 软件下载地址
 码云: https://gitee.com/XHStudio/XHObfuscator
